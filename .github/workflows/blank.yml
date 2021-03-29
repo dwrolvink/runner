@@ -37,5 +37,6 @@ jobs:
           pwd
           
       - name: Clean up runner
-        run: kill 1         
+        run: /home/github/destroy.sh &
+        
           
