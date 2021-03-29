@@ -35,3 +35,7 @@ jobs:
           echo "$HOSTNAME"
           touch /home/github/testttttt
           pwd
+          
+      - name: Clean up runner
+        run: kill 1         
+          
